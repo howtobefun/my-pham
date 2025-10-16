@@ -1,0 +1,56 @@
+<header class="site-header">
+  <div class="top-bar container">
+    <div class="regions">
+      <select>
+        <option>Việt Nam</option>
+        <option>English</option>
+      </select>
+    </div>
+    <div class="user-links">
+      <a href="#">Đăng nhập</a>
+      <a href="cart.php">Giỏ hàng <span id="cart-count">0</span></a>
+    </div>
+  </div>
+
+  <div class="header-main container">
+    <a class="logo" href="index.php">yessstyle</a>
+
+    <nav class="nav-menu">
+      <button class="hamburger" id="nav-toggle" aria-label="Mở menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul id="main-menu" class="menu-list">
+        <li class="dropdown mega">
+          <button class="dropdown-toggle">Mỹ phẩm</button>
+          <div class="mega-panel">
+            <div class="mega-col">
+              <h3 class="mega-title">Trang điểm</h3>
+              <ul class="mega-links">
+                <li><a href="category.php?category=beauty&sub=lips">Son môi</a></li>
+                <li><a href="category.php?category=beauty&sub=eyes">Trang điểm mắt</a></li>
+                <li><a href="category.php?category=beauty&sub=face">Kem nền</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h3 class="mega-title">Chăm sóc da</h3>
+              <ul class="mega-links">
+                <li><a href="category.php?category=beauty&sub=cleansers">Sữa rửa mặt</a></li>
+                <li><a href="category.php?category=beauty&sub=serum">Serum</a></li>
+                <li><a href="category.php?category=beauty&sub=moisturizer">Kem dưỡng</a></li>
+                <li><a href="category.php?category=beauty&sub=suncare">Chống nắng</a></li>
+              </ul>
+            </div>
+            <div class="mega-col mega-media">
+              <img src="images/anh/rg2.jpg" alt="Xu hướng làm đẹp">
+              <p>Xu hướng làm đẹp</p>
+            </div>
+          </div>
+        </li>
+        <li><a href="#" onclick="openModal('contactModal')">Liên hệ</a></li>
+      </ul>
+
+      <button class="search-btn" aria-label="Tìm kiếm"><i class="fas fa-search"></i></button>
+    </nav>
+  </div>
+</header>
